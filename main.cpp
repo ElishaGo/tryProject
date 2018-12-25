@@ -13,12 +13,14 @@
 
 int main() {
 
+    cout << "I've opdated my code" << endl;
+
 //    Expression *e = new Plus(new Negative(new Number(3)), new Mul(new Div(new Number(4), new Number(2)), new Number(5)));
 //    double ans = e->evaluate();
 //    std:
 //    cout << ans << std::endl;
 //    delete e;
-    vector<string> v {"5400", "10"};
+    vector<string> v{"5400", "10"};
 
     DataReaderServer().openServer(5400, 10);
 //    OpenServerCommand* o = new OpenServerCommand(v);
